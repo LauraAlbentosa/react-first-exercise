@@ -1,9 +1,8 @@
-// src/SayHello.jsx
-import React from 'react';
+const CalculateSquareArea = ({ side }) => {
+  const area = side * side;
 
-const calculateSquareArea = ({side}) => {
-    const area = side * side;
-  return <h2>El área es: {area}</h2>;
+  return <h2>El área del cuadrado es: {area}</h2>;
 };
 
-export default calculateSquareArea;
+export default CalculateSquareArea;
+
