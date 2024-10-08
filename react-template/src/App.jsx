@@ -1,12 +1,12 @@
 import React from 'react';
-import SayHello from "./components/SayHello";
-import CalculateSquareArea from "./components/CalculateSquareArea";
-import CalculateTriangleArea from "./components/CalculateTriangleArea";
-import CalculateCircleArea from './components/CalculateCircleArea';
-import CelsiusToFahrenheit from './components/CelsiusToFahrenheit';
-import FarhenheitToCelsius from './components/FahrenheitToCelsius';
-import TotalPrice from './components/TotalPrice';
-import WriteMessage from './components/WriteMessage';
+import SayHello from "./components/SayHello/SayHello";
+import CalculateSquareArea from "./components/CalculateSquareArea/CalculateSquareArea";
+import CalculateTriangleArea from "./components/CalculateTriangleArea/CalculateTriangleArea";
+import CalculateCircleArea from './components/CalculateCircleArea/CalculateCircleArea';
+import CelsiusToFahrenheit from './components/CelsiusToFahrenheit/CelsiusToFahrenheit';
+import FarhenheitToCelsius from './components/FahrenheitToCelsius/FahrenheitToCelsius';
+import TotalPrice from './components/TotalPrice/TotalPrice';
+import WriteMessage from './components/WriteMessage/WriteMessage';
 
 
 const App = () =>  {
